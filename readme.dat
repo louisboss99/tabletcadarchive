@@ -1,0 +1,196 @@
+FEATURES OF ORIGINAL TabletCAD (VERSION 1.01, 1994-1995)
+********************************************************
+
+TabletCAD is written in Turbo Pascal
+
+Basic features
+--------------
+Various dimension calculations (e.g. cup depth from cup radius)
+Automatic calculation of volume and surface area from tablet dimensions
+Calculations of density and tablet weight
+Reverse calculation of tablet thickness from weight/density/volume
+High quality printout of technical drawing of tablet
+Support for HP LaserJet (PCL) and PostScript printers
+Drawings may be placed on forms with boxes and textual information
+Possibility of scaling tablets up or down by lengths or volume
+Change between millimetres and inches
+Saving and retrieval of "tablets"
+Various settable options (e.g. number of decimal places)
+Accented and other non-English letters on forms
+
+Units and paper sizes
+---------------------
+Millimeters or inches
+A4, letter, legal or executive paper sizes
+
+Tablet shapes
+-------------
+Capsules
+Oval tablets (including modified oval with double cup radii)
+Round tablets
+Beveled tablets
+
+Bisects
+-------
+Standard
+Cut flush
+Straight through
+Deep
+Quadrasect
+Bisect on upper cup or both cups
+Account taken of bisect in volume and surface calculation
+
+Engravings
+----------
+Drawing of engraving cut
+Calculation of engraving volume and surface given total engraving length
+
+
+NEW FEATURES IN TabletCAD VERSION 2.00 (June 1998)
+**************************************************
+
+Miscellaneous
+-------------
+Reorganization of screen so that drawing is in full screen height
+Higher resolution of drawing (changed from 350 x 640 to 480 x 640)
+Mouse support for selecting functions and data fields
+Full screen print preview
+New MS-Windows compatible command names (open, options, ...)
+Size/positions now shows results of changes on a print-preview page
+Alphabetic sorting of file names in file open and file save windows
+Support for drawing defining angles of tablet shapes
+A3 paper size
+MS-Windows character set in form file
+Insert key provides shortcut for turning form on and off
+Delete, Tab and BackTab keys active for deleting and moving between fields
+MS-Windows icon for the program
+MS-Windows support for opening tablet files by clicking on them
+Round tablets (and other shapes) may be opened from oval screen etc.
+
+Engravings
+----------
+Engraving lettering with dimensions shown on tablet
+Engraving font for A-Z a-z 0-9 - + . � / triangle square
+Automatic length calculation of engravings
+Multipage output of drawings for showing engraving lettering
+Possibility of adding own engraving characters
+
+New tablet shapes
+-----------------
+Rectangular and pillow shaped
+3-radii oval
+Triangular
+Heart shaped
+
+Form improvements
+-----------------
+Fields in forms and new "Form-text" function to change text on forms
+Support for company logo (bitmap) on form
+Automatic display of tablet weight, density and punch tip force on form
+Support for variables in form files
+Drawing of tablet in actual size
+
+New tablet features
+-------------------
+Bisects of arbitrary depth
+Bisect length calculated and dimensioned on drawing
+Radius at upper edge of bisect (breakline)
+Radius at upper edge of engraving
+Calculation of recommended punch tip force
+
+
+
+CHANGES IN VERSIONS AFTER 2.00
+******************************
+
+Version 2.01 (December 1998)
+----------------------------
+MS-Windows key-bindings ^S (save), ^N (new), ^O (open) and ^P (print) added
+Ctrl/F1 can be used for F11 and Ctrl/F2 for F12
+Diamond shaped tablets added
+Middle radius renamed to blend radius on 3-radius oval tablets
+Bevel angle now measured from the tablet face, not from the side wall
+Density now shown in mg/cubic inch when designing in inches
+Punch tip force now in accordance with Tableting Specification Manual of
+   Am.Pharm.Ass. (4th edition, 1995)
+Two bisect types added, "decreasing bisect" and "short bisect"
+Various error corrections, input screen changes and other improvements for
+   friendlier use
+
+Versions 2.01a and 2.01b (Feb./March 1999)
+------------------------------------------
+Corrected Runtime-error-200 on Pentium 200 MHz plus (Turbo Pascal error)
+F11 and F12 should now work on every computer
+Added support for B size paper (11 x 17 inches)
+Added bevel-to-flat-face radius
+More input screen changes and other improvements
+
+Version 2.01c (7 April 1999)
+----------------------------
+Added regular polygon tablets (3 sided to 12 sided).
+Corrected punch tip force error for flat(ish) tablets introduced in v2.01b
+Changed punch tip force to be in exact agreement with Table 14 in TSM
+Corrected wrong drawing of end view of heart tablets introduced in v2.01b
+Corrected error in volume and surface area of some rectangular tablets
+Adjustment to memory usage to improve robustness
+Changed order of input in dimond and rectangle tablets
+Density now adjusted when changing between mm and inches
+Triangle & heart cup summit may be placed at center of circumscribed circle
+Total thickness now shown on drawing
+
+Version 2.01d (19 April 1999)
+-----------------------------
+Corrected problem with printing introduced in Version 2.01b
+
+Version 2.01e (23 April 1999)
+-----------------------------
+Added partial biseect (type H)
+Changes made to polygonal tablet
+Changed triangular tablet so that tablet height may be primary input
+As recommended in TSM punch force reduced 20% if bisect or engraving present
+Punch force based on shortest distance from cup summit to edge in all cases
+Inscribed circle radius now displayed for polygon tablets
+
+Version 2.01f (20 May 1999)
+---------------------------
+Corrected some errors in dimensioning on drawings
+Changed inscribed/circumscribed radius to diameter
+
+Version 2.01g (10 June 1999)
+----------------------------
+Corrected recently introduced run-time error in flat-face triangles
+Changed default for rectangular tablets to have single radius cup
+Fixed problem for punch force on triangles
+Fixed indent radius dimensioning for heart
+
+Versions 2.02 (5 July 1999) and 2.02a (3 August 1999)
+-----------------------------------------------------
+Slight changes to help text and small correction in setup
+
+Version 2.02b (22 Sept 1999)
+----------------------------
+Added option for displaying punch tip force in tons as well as kN
+
+Version 2.02c (17 Oct 1999)
+---------------------------
+Punch tip displayed simultaneously in kN and tons
+
+Version 2.02d (17 May 2000)
+---------------------------
+Changed demo version so that saves are not possible
+Disabled users override of punch tip force
+
+Version 2.02e (23 May 2000)
+---------------------------
+Changed text on punch tip force line
+
+Version 2.02f (14 Nov. 2000)
+----------------------------
+Corrected error in postscript printing of arcs with large radius
+Corrected calculation of surface area of capsules
+
+Version 2.02g (3 March 2002)
+----------------------------
+Corrected a small error in setup
+
+The current e-mail address of Saga Software is sagasoftware@simnet.is
